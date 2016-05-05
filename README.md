@@ -3,5 +3,5 @@
 * To getting start, use `npm install` to install neccessary modules
 and use seperate consoles to run
 
-** npm run build
-** npm run server
+* To run auto build. `npm run build`
+* To start the server with live reload. `npm run server`
