@@ -1,0 +1,17 @@
+{
+  "name": "reducact",
+  "version": "1.0.0",
+  "description": "An attemp with React and Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "watchify src/app.js -o public/bundle.js -t [ babelify --presets [ react es2015 ] ]",
+    "server": "cd public; live-server --port=1234 --entry-file=index.html"
+  },
+  "keywords": [],
+  "author": "Long Tran <long.thanh.tran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "expect": "^1.19.0"
+  }
+}
